@@ -36,8 +36,8 @@ body {
 
   /* Mobile */
   @media screen and (max-width: 768px) {
-    img {
-      min-height: 100%;
+    .card {
+        width: calc(100% - 15px) /* accounting for width-gap */
     }
   }
 
